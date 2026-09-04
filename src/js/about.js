@@ -1,5 +1,5 @@
-function infoAboutRestaurant() {
-    const div = document.createElement("div");
+export function infoAboutRestaurant() {
+    const div = document.querySelector("#content");
     const p = document.createElement("p");
     p.textContent = `Founded in 2015, our restaurant started as a tiny family kitchen with just four tables and a dream. What began as weekend cooking for friends and neighbors quickly grew into something bigger — a place where strangers become regulars and every dish is made with the same care we'd give our own family.
 
