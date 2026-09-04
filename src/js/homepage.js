@@ -1,4 +1,4 @@
-import restaurantImg from "./images/restaurant.jpg";
+import restaurantImg from "../images/restaurant.jpg";
 
 function createTheContentPart() {
     const header = document.createElement("h1");
@@ -12,10 +12,9 @@ function createTheContentPart() {
                 Our guests are treated as kings and queens. Best quality time is \
                 spend at our returant."
 
-    const div = document.querySelector('#content');
+    const div = document.createElement("div");
     div.appendChild(header);
     div.appendChild(img);
     div.appendChild(description);
-}
 
-createTheContentPart();
+}
